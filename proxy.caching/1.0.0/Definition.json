@@ -12,6 +12,15 @@
   ],
   "variables": {
     "SERVICE": {
+      "PROXY": {
+        "PROXY_CA_FILE": "proxyCA.pem"
+      },
+      "PROXY_CA_FILE_ACCESS": {
+        "NAME": "caching_proxy_ca_file_access",
+        "PORTS": {
+          "PORT_EXPOSED": 3129
+        }
+      },
       "SQUID": {
         "NAME": "caching_proxy_squid",
         "PORTS": {
