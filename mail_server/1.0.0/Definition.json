@@ -15,13 +15,13 @@
     "main/docker/redis:1.0.0",
     "main.mail_server/docker/anti_virus:1.0.0",
     "main.mail_server/docker/anti_spam:1.0.0",
-    "main.mail_server/docker/postfix:1.0.0",
-    "main.mail_server/docker/dovecot:1.0.0"
+    "main.mail_server/docker/dovecot:1.0.0",
+    "main.mail_server/docker/postfix:1.0.0"
   ],
   "variables": {
     "SERVER": {
       "CERTIFICATION": {
-        "HOME": "{{SERVER.SERVER_HOME}}/Server/Ca",
+        "HOME": "{{SERVER.HOME}}/Server/Ca",
         "COUNTRY": "{{SERVER.INFO.COUNTRY}}",
         "PROVINCE": "{{SERVER.INFO.PROVINCE}}",
         "CITY": "{{SERVER.INFO.CITY}}",
