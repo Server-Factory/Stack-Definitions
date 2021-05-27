@@ -7,7 +7,9 @@
   },
   "uses": [
     "main/software/docker:1.0.0",
-    "main/docker/network:1.0.0"
+    "main/software/postgres:1.0.0",
+    "main/docker/network:1.0.0",
+    "main/docker/postgres:1.0.0"
   ],
   "variables": {
     "SERVICE": {
