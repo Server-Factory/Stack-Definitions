@@ -7,6 +7,7 @@
   },
   "uses": [
     "main/software/docker:1.0.0",
+    "main/software/firewall:1.0.0",
     "main/software/postgres:1.0.0",
     "main/software/redis:1.0.0",
     "main/software/certification_authority:1.0.0",
